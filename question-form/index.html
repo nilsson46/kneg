@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Survey</h1>
+    </header>
+    
+    <main>
+        <form id="surveyForm">
+            <section class="question" id="question1">
+                <h2>Question 1: Which color do you prefer?</h2>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="question1" value="red">
+                        Red
+                    </label>
+                    <label>
+                        <input type="checkbox" name="question1" value="blue">
+                        Blue
+                    </label>
+                    <!-- Add more options here -->
+                </div>
+            </section>
+            
+            <section class="question" id="question2">
+                <h2>Question 2: What is your favorite animal?</h2>
+                <div class="options">
+                    <label>
+                        <input type="checkbox" name="question2" value="dog">
+                        Dog
+                    </label>
+                    <label>
+                        <input type="checkbox" name="question2" value="cat">
+                        Cat
+                    </label>
+                    <!-- Add more options here -->
+                </div>
+            </section>
+            
+            <!-- Add more sections for other questions -->
+            
+            <button type="button" id="nextButton">Next</button>
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Survey Project. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Link to your external JavaScript file -->
+</body>
+</html>
